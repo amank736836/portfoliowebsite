@@ -20,9 +20,7 @@ const About = () => {
             <ul className="info__list grid">
               <Info />
             </ul>
-            <a href={Resume}
-              download=''
-            className="button">
+            <a href={Resume} download="" className="button">
               Download CV{" "}
               <span className="button__icon">
                 <FaDownload />
@@ -30,7 +28,7 @@ const About = () => {
             </a>
           </div>
           <div className="stats grid">
-            <Stats/>
+            <Stats />
           </div>
         </div>
       </section>
@@ -43,6 +41,8 @@ const About = () => {
           <Skills />
         </div>
       </section>
+      <div className="separator"></div>
+      
     </main>
   );
 };
