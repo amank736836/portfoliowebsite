@@ -145,62 +145,6 @@ export const stats = [
   },
 ];
 
-export const resume = [
-  {
-    id: 1,
-    category: "experience",
-    icon: <FaBriefcase />,
-    year: "2018 - PRESENT",
-    title: "Web Developer <span> Envato </span>",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
-  },
-
-  {
-    id: 2,
-    category: "experience",
-    icon: <FaBriefcase />,
-    year: "2013 - 2018",
-    title: "UI/UX Designer <span> Themeforest </span>",
-    desc: "Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt",
-  },
-
-  {
-    id: 3,
-    category: "experience",
-    icon: <FaBriefcase />,
-    year: "2005 - 2013",
-    title: "Consultant <span> Videohive </span>",
-    desc: "Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt",
-  },
-
-  {
-    id: 4,
-    category: "education",
-    icon: <FaGraduationCap />,
-    year: "2015",
-    title: "Engineering Degree <span> Oxford University </span>",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore",
-  },
-
-  {
-    id: 5,
-    category: "education",
-    icon: <FaGraduationCap />,
-    year: "2012",
-    title: "Master Degree <span> KIEV University </span>",
-    desc: "Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt",
-  },
-
-  {
-    id: 6,
-    category: "education",
-    icon: <FaGraduationCap />,
-    year: "2009",
-    title: "Bachelor Degree <span> Tunis High School </span>",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore",
-  },
-];
-
 export const skills = [
   {
     id: 1,
@@ -211,31 +155,31 @@ export const skills = [
   {
     id: 2,
     title: "Javascript",
-    percentage: "90",
+    percentage: "85",
   },
 
   {
     id: 3,
     title: "Css",
-    percentage: "70",
+    percentage: "75",
   },
 
   {
     id: 4,
     title: "C++",
-    percentage: "86",
+    percentage: "85",
   },
 
   {
     id: 5,
     title: "Java",
-    percentage: "95",
+    percentage: "90",
   },
 
   {
     id: 6,
     title: "MongoDb",
-    percentage: "75",
+    percentage: "80",
   },
 
   {
@@ -255,7 +199,43 @@ export const skills = [
     title: "NodeJs",
     percentage: "80",
   },
+  {
+    id: 10,
+    title: "C",
+    percentage: "80",
+  }
 ];
+
+
+export const resume = [
+  {
+    id: 1,
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "Sep 2021 – May 2025",
+    title: "Bachelor Of Engineering <span> Chitkara University </span>",
+    desc: "Computer Science Engineering – GPA: 9.12 – Solan, Himachal Pradesh",
+  },
+
+  {
+    id: 2,
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "May 2020 – June 2021",
+    title: "Higher Secondary  <span> DAV Centenary Public School </span>",
+    desc: "Percentage – 82.5% – Jaipur, Rajasthan",
+  },
+
+  {
+    id: 3,
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "May 2018 – April 2019",
+    title: "Secondary <span> DAV Public School </span>",
+    desc: "Percentage – 74.8% – Mohali, Punjab",
+  },
+];
+
 
 export const portfolio = [
   {
