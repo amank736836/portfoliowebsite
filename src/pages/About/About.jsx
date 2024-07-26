@@ -3,6 +3,7 @@ import { FaDownload } from "react-icons/fa";
 import Resume from "../../assets/Aman.pdf";
 import Stats from "../../Components/Stats";
 import Skills from "../../Components/Skills";
+import Education from "../../Components/Education";
 import "./About.css";
 
 const About = () => {
@@ -21,7 +22,7 @@ const About = () => {
               <Info />
             </ul>
             <a href={Resume} download="" className="button">
-              Download CV{" "}
+              Download Cv
               <span className="button__icon">
                 <FaDownload />
               </span>
@@ -42,7 +43,16 @@ const About = () => {
         </div>
       </section>
       <div className="separator"></div>
-      
+
+      <section className="resume">
+        <h3 className="section__subtitle subtitle__center">Education</h3>
+        <div className="resume__container grid">
+          <div className="resume__data">
+            <Education/>
+          </div>
+        </div>
+      </section>
+
     </main>
   );
 };
