@@ -21,42 +21,82 @@
 }
 
 .info__list .info__description {
-    color: var(--title-color);
-    font-weight: var(--weight-600);
+  color: var(--title-color);
+  font-weight: var(--weight-600);
 }
 
-.stats__box{
-    border: 1px solid var(--border-color);
-    padding: 20px 30px 25px;
-    border-radius: 5px;
+.stats__box {
+  border: 1px solid var(--border-color);
+  padding: 20px 30px 25px;
+  border-radius: 5px;
 }
 
-.stats__no{
-    color: var(--first-color);
-    font-size: var(--h1-font-size);
-    line-height: 1.2;
+.stats__no {
+  color: var(--first-color);
+  font-size: var(--h1-font-size);
+  line-height: 1.2;
 }
 
-.stats__title{
-    font-size: var(--small-font-size);
-    line-height: 1.6;
-    padding-left: 45px;
-    position: relative;
+.stats__title {
+  font-size: var(--small-font-size);
+  line-height: 1.6;
+  padding-left: 45px;
+  position: relative;
 }
 
-.stats__title::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 25%;
-    width: 30px;
-    height: 1px;
-    background-color: var(--text-color);
+.stats__title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 30px;
+  height: 1px;
+  background-color: var(--text-color);
 }
 
-.separator{
-    border-top: 1px solid var(--border-color);
-    max-width: 40%;
-    margin: 72px auto 56px;
-
+.separator {
+  border-top: 1px solid var(--border-color);
+  max-width: 40%;
+  margin: 72px auto 56px;
 }
+
+.subtitle__center {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.skills__container {
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  row-gap: 48px;
+}
+
+.progress__circle {
+  width: 120px;
+  height: 120px;
+}
+
+.CircularProgressbar-path {
+  stroke: var(--first-color) !important;
+  stroke-linecap: butt !important;
+}
+
+.CircularProgressbar-trail {
+  stroke: var(--container-color) !important;
+}
+
+.CircularProgressbar-text {
+  fill: var(--title-color) !important;
+  font-family: var(--second-font) !important;
+  font-size: var(--large-font-size) !important;
+}
+
+.skills__title{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--weight-400);
+    text-align: center;
+    margin-top: 24px;
+}
+
+ 
