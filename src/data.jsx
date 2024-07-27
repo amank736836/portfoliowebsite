@@ -3,7 +3,6 @@ import {
   FaUser,
   FaFolderOpen,
   FaEnvelopeOpen,
-  FaBriefcase,
   FaGraduationCap,
   FaCode,
 } from "react-icons/fa";
@@ -274,12 +273,12 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Website",
+        desc: "Blogging Website",
       },
       {
         icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        title: "Github : ",
+        desc: "amank736836",
       },
       {
         icon: <FaCode />,
