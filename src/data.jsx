@@ -222,7 +222,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: "May 2020 – June 2021",
     title: "Higher Secondary  <span> DAV Centenary Public School </span>",
-    desc: "Percentage – 82.5% – Jaipur, Rajasthan",
+    desc: "Percentage: 82.5% – Jaipur, Rajasthan",
   },
 
   {
@@ -231,7 +231,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: "May 2018 – April 2019",
     title: "Secondary <span> DAV Public School </span>",
-    desc: "Percentage – 74.8% – Mohali, Punjab",
+    desc: "Percentage: 74.8% – Mohali, Punjab",
   },
 ];
 
