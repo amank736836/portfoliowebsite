@@ -1,14 +1,10 @@
-.info__list,
-.stats {
-  grid-template-columns: repeat(5, 1fr);
-  align-items: flex-start;
-}
-
 .resume__container {
   align-items: flex-start;
 }
 
 .info__list {
+  grid-template-columns: repeat(5, 1fr);
+  align-items: flex-start;
   row-gap: 20px;
   margin-bottom: 32px;
 }
