@@ -7,7 +7,7 @@ const Info = () => {
         return (
           <li className="info__item" key={index}>
             <span className="info__title">{title}</span>
-            <span className="info__description">{description}</span>
+            <h3 className="info__description">{description}</h3>
           </li>
         );
       })}
