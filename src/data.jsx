@@ -6,14 +6,14 @@ import {
   FaGraduationCap,
   FaCode,
 } from "react-icons/fa";
-import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
+import { FiFileText, FiUser, FiExternalLink, FiGithub } from "react-icons/fi";
 
-import Work1 from "./assets/project-1.jpeg";
-import Work2 from "./assets/project-2.jpg";
-import Work3 from "./assets/project-3.jpeg";
-import Work4 from "./assets/project-4.jpeg";
-import Work5 from "./assets/project-5.jpg";
-import Work6 from "./assets/project-6.jpg";
+import FrameAndPhrase from "./assets/frameandphrase.png";
+import CipherGen from "./assets/ciphergen.png";
+import CashCode from "./assets/cashcode.png";
+import OrganizeIt from "./assets/organizeit.png";
+import SelfDevelopmentGoals from "./assets/selfdevelopmentgoals.png";
+import Ecommerce from "./assets/ecommerce.png";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -25,6 +25,238 @@ import Theme7 from "./assets/yellowgreen.png";
 import Theme8 from "./assets/orange.png";
 import Theme9 from "./assets/green.png";
 import Theme10 from "./assets/yellow.png";
+
+export const portfolio = [
+  {
+    id: 1,
+    img: FrameAndPhrase,
+    title: "Blogging Website",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Blogging Website",
+      },
+      {
+        icon: <FiGithub />,
+        title: "Github : ",
+        desc: (
+          <a
+            href="https://github.com/amank736836/Blogging-Website"
+            target="_blank"
+          >
+            Blogging Website
+          </a>
+        ),
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "ReactJs - Appwrite",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: (
+          <a href="https://frameandphrase.vercel.app/" target="_blank">
+            Frame and Phrase
+          </a>
+        ),
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    img: CipherGen,
+    title: "Password Generator",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Password Generator",
+      },
+      {
+        icon: <FiGithub />,
+        title: "Github : ",
+        desc: (
+          <a
+            href="https://github.com/amank736836/password-Generator"
+            target="_blank"
+          >
+            Password Generator
+          </a>
+        ),
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "React JS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: (
+          <a href="https://ciphergen.vercel.app/" target="_blank">
+            CipherGen
+          </a>
+        ),
+      },
+    ],
+  },
+
+  {
+    id: 3,
+    img: CashCode,
+    title: "Currency Converter",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Currency Converter",
+      },
+      {
+        icon: <FiUser />,
+        title: "Github : ",
+        desc: (
+          <a
+            href="https://github.com/amank736836/currency-Convertor"
+            target="_blank"
+          >
+            Currency Converter
+          </a>
+        ),
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "React JS",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: (
+          <a href="https://cashcode.vercel.app/" target="_blank">
+            CashCode
+          </a>
+        ),
+      },
+    ],
+  },
+
+  {
+    id: 4,
+    img: OrganizeIt,
+    title: "To Do List",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "To Do List",
+      },
+      {
+        icon: <FiGithub />,
+        title: "Github : ",
+        desc: (
+          <a
+            href="https://github.com/amank736836/todo-ContextLocal---React"
+            target="_blank"
+          >
+            To Do List
+          </a>
+        ),
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "React JS, Context API",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: (
+          <a href="https://organizeit.vercel.app/" target="_blank">
+            OrganizeIt
+          </a>
+        ),
+      },
+    ],
+  },
+  {
+    id: 4,
+    img: SelfDevelopmentGoals,
+    title: "Landing Page",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Landing Page",
+      },
+      {
+        icon: <FiGithub />,
+        title: "Github : ",
+        desc: (
+          <a href="https://github.com/amank736836/SDG" target="_blank">
+            Landing Page
+          </a>
+        ),
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "Html - Css - Javascript",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: (
+          <a href="https://selfdevelopmentgoals.vercel.app/" target="_blank">
+            SelfDevelopmentGoals
+          </a>
+        ),
+      },
+    ],
+  },
+
+  {
+    id: 6,
+    img: Ecommerce,
+    title: "Ecommerce Website",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Ecommerce Website",
+      },
+      {
+        icon: <FiGithub />,
+        title: "Github : ",
+        desc: (
+          <a
+            href="https://github.com/amank736836/Products-Server"
+            target="_blank"
+          >
+            Ecommerce Website
+          </a>
+        ),
+      },
+      {
+        icon: <FaCode />,
+        title: "Language : ",
+        desc: "MongoDb - ExpressJs - NodeJs",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: (
+          <a href="https://products-server-u5b7.onrender.com/" target="_blank">
+            Ecommerce
+          </a>
+        ),
+      },
+    ],
+  },
+];
 
 export const links = [
   {
@@ -202,9 +434,8 @@ export const skills = [
     id: 10,
     title: "C",
     percentage: "80",
-  }
+  },
 ];
-
 
 export const resume = [
   {
@@ -232,173 +463,6 @@ export const resume = [
     year: "May 2018 – April 2019",
     title: "Secondary <span> DAV Public School </span>",
     desc: "Percentage: 74.8% – Mohali, Punjab",
-  },
-];
-
-
-export const portfolio = [
-  {
-    id: 1,
-    img: Work1,
-    title: "Photo Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Photo",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Photoshop",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
-      },
-    ],
-  },
-
-  {
-    id: 2,
-    img: Work2,
-    title: "Website Design",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Blogging Website",
-      },
-      {
-        icon: <FiUser />,
-        title: "Github : ",
-        desc: "amank736836",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "React JS",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
-      },
-    ],
-  },
-
-  {
-    id: 3,
-    img: Work3,
-    title: "Video Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Video",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Premium",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
-      },
-    ],
-  },
-
-  {
-    id: 4,
-    img: Work4,
-    title: "Video Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Video",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Premium",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dribble.com",
-      },
-    ],
-  },
-
-  {
-    id: 5,
-    img: Work5,
-    title: "Landing Page",
-    details: [
-      {
-        title: "Project : ",
-        desc: "Website",
-      },
-      {
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        title: "Language : ",
-        desc: "React JS, Node JS",
-      },
-      {
-        title: "Preview : ",
-        desc: "www.dribble.com",
-      },
-    ],
-  },
-
-  {
-    id: 6,
-    img: Work6,
-    title: "Photo Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Photo",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Photoshop",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "www.dibble.com",
-      },
-    ],
   },
 ];
 
