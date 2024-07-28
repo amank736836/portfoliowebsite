@@ -350,32 +350,6 @@ export const personalInfo = [
   },
 ];
 
-export const stats = [
-  {
-    id: 1,
-    no: "12+",
-    title: "Years of <br /> Experience",
-  },
-
-  {
-    id: 2,
-    no: "97+",
-    title: "Completed <br /> Projects",
-  },
-
-  {
-    id: 3,
-    no: "81+",
-    title: "Happy <br /> Customers",
-  },
-
-  {
-    id: 4,
-    no: "53+",
-    title: " Awards <br /> Won",
-  },
-];
-
 export const skills = [
   {
     id: 1,
