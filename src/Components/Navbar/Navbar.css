@@ -24,7 +24,7 @@
 .nav__icon,
 .nav__name {
   color: var(--title-color);
-  font-size: 24px;
+  font-size: var(--big-font-size);
 }
 
 .nav__name {
@@ -38,26 +38,27 @@
 
 .nav__toggle {
   position: fixed;
-  top: 30px;
-  right: 30px;
-  width: 40px;
-  height: 40px;
-  border-radius: 5px;
+  top: 25px;
+  right: 0px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px 0 0 5px;
   background-color: var(--container-color);
   padding: 12px 10px;
+  z-index: 15;
 }
 
 .nav__toggle span {
   display: block;
-  width: 20px;
+  width: 30px;
   height: 2px;
   border-radius: 2px;
   background-color: var(--title-color);
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .animate-toggle span:first-child {
-  transform: rotate(45deg) translate(6px, 4px);
+  transform: rotate(45deg) translate(11px, 8px);
 }
 
 .animate-toggle span:nth-child(2) {
@@ -113,7 +114,7 @@
     line-height: 50px;
     padding-inline: 30px 25px;
     border-radius: 25px 0 0 25px;
-    font-size: var(--small-font-size);
+    font-size: var(--h3-font-size);
     color: var(--text-white);
     opacity: 0;
     visibility: hidden;
