@@ -26,7 +26,7 @@
   padding-left: 70px;
 }
 
-.home__title span {
+.home__title div {
   color: var(--first-color);
 }
 
@@ -52,8 +52,8 @@
     width: 100%;
     background-color: var(--first-color);
     top: -50%;
-    left: -83%;
-    transform: rotate(-15deg);
+    left: -73%;
+    transform: rotate(-25deg);
     /* left: -55%;
     transform: rotate(-15deg); */
 }
