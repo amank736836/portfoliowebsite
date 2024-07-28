@@ -19,7 +19,7 @@ const Contact = () => {
       </h2>
       <div className="contact__container container grid">
         <div className="contact__data">
-          <h3 className="contact__title">Don't be Shy !</h3>
+          <h3 className="contact__title">Don&apos;t be Shy !</h3>
           <p className="contact__description">
             Feel free to get in touch with me. I am always open to discussing
             new projects, creative ideas or opportunities to be part of your
@@ -92,44 +92,53 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <form action="" className="contact__form">
+        <form action="https://formspree.io/f/mgvwardg" method="POST" className="contact__form">
           <div className="form__input-group">
             <div className="form__input-div">
               <input
+              name="name"
                 type="text"
                 placeholder="Your Name"
                 className="form__control"
+                required
               />
             </div>
             <div className="form__input-div">
               <input
+                name="email"
                 type="email"
                 placeholder="Your Email"
                 className="form__control"
+                required
               />
             </div>
 
             <div className="form__input-div">
               <input
+                name="subject"
                 type="text"
                 placeholder="Your Subject"
                 className="form__control"
+                required
               />
             </div>
-
           </div>
-            <div className="form__input-div">
-              <textarea
-                placeholder="Your Message"
-                className="form__control textarea"
-              ></textarea>
-            </div>
-            <button className="button">
+          <div className="form__input-div">
+            <textarea
+            name="message"
+              placeholder="Your Message"
+              className="form__control textarea"
+              required
+            ></textarea>
+          </div>
+          <div className="button-center">
+            <button className="button" type="Submit">
               Send Message
               <span className="button__icon contact__button-icon">
                 <FiSend />
               </span>
             </button>
+          </div>
         </form>
       </div>
     </section>
