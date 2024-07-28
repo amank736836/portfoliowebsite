@@ -158,15 +158,6 @@ img {
   line-height: 60px;
 }
 
-@keyframes bounce {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-20px);
-  }
-}
-
 .box {
   display: flex;
   align-items: center;
