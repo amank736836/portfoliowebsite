@@ -40,6 +40,7 @@ const About = () => {
           <Skills />
         </div>
       </section>
+
       <div className="separator"></div>
 
       <section className="resume">
