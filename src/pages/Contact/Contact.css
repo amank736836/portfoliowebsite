@@ -95,3 +95,8 @@
     font-size: var(--h3-font-size);
     line-height: 64px;
 }
+
+.button-center{
+    display: flex;
+    justify-content: center;
+}
