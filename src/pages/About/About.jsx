@@ -1,7 +1,6 @@
 import Info from "../../Components/Info";
 import { FaDownload } from "react-icons/fa";
 import Resume from "../../assets/Aman.pdf";
-import Stats from "../../Components/Stats";
 import Skills from "../../Components/Skills";
 import Education from "../../Components/Education";
 import "./About.css";
@@ -27,9 +26,6 @@ const About = () => {
                 <FaDownload />
               </span>
             </a>
-          </div>
-          <div className="stats grid">
-            <Stats />
           </div>
         </div>
       </section>
