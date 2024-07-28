@@ -183,7 +183,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     img: SelfDevelopmentGoals,
     title: "Landing Page",
     details: [
