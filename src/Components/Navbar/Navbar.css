@@ -6,6 +6,7 @@
   width: 100%;
   padding: 60px 30px;
   transition: all 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  z-index: 10;
 }
 
 .show-menu {
@@ -60,7 +61,6 @@
 }
 
 .animate-toggle span:nth-child(2) {
-  /* opacity: 0; */
   display: none;
 }
 
@@ -82,6 +82,7 @@
     right: 30px;
     display: flex;
     align-items: center;
+    z-index: 10;
   }
 
   .nav__item {
@@ -91,7 +92,7 @@
   .nav__link {
     padding: 0;
     border-bottom: none;
-    background-color: var(--container-color);
+    background-color: var(--container-color);;
     width: 50px;
     height: 50px;
     border-radius: 50%;
