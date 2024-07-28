@@ -20,12 +20,14 @@ const About = () => {
             <ul className="info__list grid">
               <Info />
             </ul>
-            <a href={Resume} download="" className="button">
-              Download Cv
-              <span className="button__icon">
-                <FaDownload />
-              </span>
-            </a>
+            <center>
+              <a href={Resume} download="" className="button">
+                Download Cv
+                <span className="button__icon">
+                  <FaDownload />
+                </span>
+              </a>
+            </center>
           </div>
         </div>
       </section>
@@ -44,11 +46,10 @@ const About = () => {
         <h3 className="section__subtitle subtitle__center">Education</h3>
         <div className="resume__container grid">
           <div className="resume__data">
-            <Education/>
+            <Education />
           </div>
         </div>
       </section>
-
     </main>
   );
 };
