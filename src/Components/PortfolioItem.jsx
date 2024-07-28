@@ -1,8 +1,6 @@
-import Close from "../assets/close.svg";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import Close from "../assets/close.svg";
 const PortfolioItem = ({ img, title, details }) => {
-  console.log(details);
   const [modal, setModal] = useState(false);
   const toggleModal = () => {
     setModal(!modal);
