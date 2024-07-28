@@ -8,6 +8,7 @@ import {
   FaSnapchat,
   FaTelegram,
 } from "react-icons/fa";
+import Codolio from "../../assets/codolio.svg";
 import { FaThreads, FaXTwitter } from "react-icons/fa6";
 import "./Contact.css";
 import { FiSend } from "react-icons/fi";
@@ -68,6 +69,17 @@ const Contact = () => {
             >
               <FaSnapchat />
             </a>
+            <a
+              href="https://codolio.com/profile/amank736836"
+              className="contact__social-link"
+            >
+              <img
+                src={Codolio}
+                alt="Codolio"
+                className="contact__social-icon"
+              />
+            </a>
+
             <a href="https://t.me/amank736836" className="contact__social-link">
               <FaTelegram />
             </a>
@@ -92,11 +104,15 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <form action="https://formspree.io/f/mgvwardg" method="POST" className="contact__form">
+        <form
+          action="https://formspree.io/f/mgvwardg"
+          method="POST"
+          className="contact__form"
+        >
           <div className="form__input-group">
             <div className="form__input-div">
               <input
-              name="name"
+                name="name"
                 type="text"
                 placeholder="Your Name"
                 className="form__control"
@@ -125,7 +141,7 @@ const Contact = () => {
           </div>
           <div className="form__input-div">
             <textarea
-            name="message"
+              name="message"
               placeholder="Your Message"
               className="form__control textarea"
               required
