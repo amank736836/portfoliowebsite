@@ -5,8 +5,14 @@
 }
 
 @media screen and (max-width: 1200px) {
+
   .grid {
     gap: 20px;
+  }
+
+  .home{
+    grid-template-columns: 1fr;
+    justify-items: center;
   }
 
   .home__data {
@@ -14,11 +20,11 @@
   }
 
   .home__title {
-    font-size: var(--big-font-size);
+    font-size: var(--h1-font-size) !important;
   }
 
   .home__description {
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
   }
 
   .skills__container {
@@ -79,6 +85,7 @@
   .home {
     padding: 20px;
     grid-template-columns: 5fr 7fr;
+    justify-items: center;
   }
 
   .home__data {
@@ -144,6 +151,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    max-width: 760px !important;
+  }
   .home {
     grid-template-columns: 1fr !important;
     justify-items: center;
@@ -155,7 +165,7 @@
     height: 200%;
     width: 100%;
     background-color: var(--first-color);
-    top: -85% !important;
+    top: -95% !important;
     left: 53% !important;
     transform: rotate(90deg) !important;
   }
@@ -230,7 +240,8 @@
 
   .contact__socials {
     display: grid !important;
-    grid-template-columns: repeat(5, 1fr) !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    justify-items: center;
     row-gap: 20px;
     column-gap: 50px !important;
   }
@@ -314,9 +325,7 @@
   }
 
   .contact__socials {
-    display: grid !important;
-    grid-template-columns: repeat(4, 1fr) !important;
-    row-gap: 15px;
+    row-gap: 10px !important;
   }
 }
 
@@ -324,5 +333,11 @@
   .info__list {
     display: grid;
     grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .contact__socials {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    row-gap: 15px;
   }
 }
