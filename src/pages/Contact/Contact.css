@@ -106,3 +106,9 @@
     display: flex;
     justify-content: center;
 }
+
+.info__link{
+    color: var(--first-color);
+    font-weight: var(--weight-600);
+    transition: all 0.3s ease;
+}
