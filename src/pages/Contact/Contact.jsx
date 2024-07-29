@@ -27,20 +27,24 @@ const Contact = () => {
             visions.
           </p>
           <div className="contact__info">
-            <div className="info__item">
-              <FaEnvelope className="info__icon" />
-              <div>
-                <span className="info__title">Mail me</span>
-                <h4 className="info__desc">amankarguwal0@gmail.com</h4>
+            <a href="mailto:amankarguwal0@gmail.com" className="info__link">
+              <div className="info__item">
+                <FaEnvelope className="info__icon" />
+                <div>
+                  <span className="info__title">Mail me</span>
+                  <h4 className="info__desc">amankarguwal0@gmail.com</h4>
+                </div>
               </div>
-            </div>
-            <div className="info__item">
-              <FaPhoneSquareAlt className="info__icon" />
-              <div>
-                <span className="info__title">Call me</span>
-                <h4 className="info__desc">+91 6284 736 836</h4>
+            </a>
+            <a href="tel:6284736836" className="info__link">
+              <div className="info__item">
+                <FaPhoneSquareAlt className="info__icon" />
+                <div>
+                  <span className="info__title">Call me</span>
+                  <h4 className="info__desc">+91 6284 736 836</h4>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
 
           <div className="contact__socials">
