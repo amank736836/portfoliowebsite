@@ -51,7 +51,7 @@
     height: 200%;
     width: 100%;
     background-color: var(--first-color);
-    top: -50%;
+    top: -47%;
     left: -73%;
     transform: rotate(-25deg);
 }
