@@ -354,60 +354,49 @@ export const skills = [
   {
     id: 1,
     title: "Html",
-    percentage: "80",
   },
 
   {
     id: 2,
     title: "Javascript",
-    percentage: "85",
   },
 
   {
     id: 3,
     title: "Css",
-    percentage: "75",
   },
-
+  {
+    id: 10,
+    title: "C",
+  },
   {
     id: 4,
     title: "C++",
-    percentage: "85",
   },
 
   {
     id: 5,
     title: "Java",
-    percentage: "90",
   },
 
   {
     id: 6,
     title: "MongoDb",
-    percentage: "80",
   },
 
   {
     id: 7,
     title: "ExpressJs",
-    percentage: "75",
   },
 
   {
     id: 8,
     title: "React",
-    percentage: "85",
   },
 
   {
     id: 9,
     title: "NodeJs",
-    percentage: "80",
-  },
-  {
-    id: 10,
-    title: "C",
-    percentage: "80",
   },
 ];
 
