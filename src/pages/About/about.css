@@ -44,7 +44,7 @@
 
 .skills__title {
   font-family: var(--body-font);
-  font-size: var(--normal-font-size);
+  font-size: var(--h3-font-size);
   font-weight: var(--weight-400);
   text-align: center;
   margin-top: 24px;
