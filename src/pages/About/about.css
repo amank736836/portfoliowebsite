@@ -42,26 +42,6 @@
   row-gap: 48px;
 }
 
-.progress__circle {
-  width: 120px;
-  height: 120px;
-}
-
-.CircularProgressbar-path {
-  stroke: var(--first-color) !important;
-  stroke-linecap: butt !important;
-}
-
-.CircularProgressbar-trail {
-  stroke: var(--container-color) !important;
-}
-
-.CircularProgressbar-text {
-  fill: var(--title-color) !important;
-  font-family: var(--second-font) !important;
-  font-size: var(--large-font-size) !important;
-}
-
 .skills__title {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
