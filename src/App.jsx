@@ -17,10 +17,10 @@ function App() {
         <div className="loader"></div>
       </div>}>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route exact path="/" Component={Home} />
+          <Route path="/about" Component={About} />
+          <Route path="/portfolio" Component={Portfolio} />
+          <Route path="/contact" Component={Contact} />
         </Routes>
       </Suspense>
     </BrowserRouter>
