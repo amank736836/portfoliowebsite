@@ -17,7 +17,7 @@ function App() {
         <div className="loader"></div>
       </div>}>
         <Routes>
-          <Route exact path="/" Component={Home} />
+          <Route path="/" Component={Home} />
           <Route path="/about" Component={About} />
           <Route path="/portfolio" Component={Portfolio} />
           <Route path="/contact" Component={Contact} />
