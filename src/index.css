@@ -2,6 +2,11 @@
   .container {
     max-width: calc(100% - 180px);
   }
+
+  .view{
+    padding-left: 5rem !important;
+  }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -71,6 +76,7 @@
   .form__input-div {
     margin-bottom: 24px;
   }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -327,6 +333,10 @@
   .contact__socials {
     row-gap: 10px !important;
   }
+
+  .view{
+    padding-left:1rem !important;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -339,5 +349,9 @@
     display: grid !important;
     grid-template-columns: repeat(3, 1fr) !important;
     row-gap: 15px;
+  }
+
+  .view{
+    padding-left: 0rem !important;
   }
 }
