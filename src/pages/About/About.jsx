@@ -4,6 +4,8 @@ import Resume from "../../assets/Aman.pdf";
 import Skills from "../../Components/Skills";
 import Education from "../../Components/Education";
 import "./about.css";
+import { FaEye } from "react-icons/fa6";
+import { NavLink } from "react-router-dom";
 
 const About = () => {
   return (
@@ -27,6 +29,20 @@ const About = () => {
                   <FaDownload />
                 </span>
               </a>
+              <NavLink
+                to={"/resume"}
+                className="view"
+                style={{
+                  paddingLeft: "10rem",
+                }}
+              >
+                <a className="button">
+                  View Cv
+                  <span className="button__icon">
+                    <FaEye />
+                  </span>
+                </a>
+              </NavLink>
             </center>
           </div>
         </div>
