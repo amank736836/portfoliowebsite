@@ -21,7 +21,7 @@ const Resume = () => {
         }}
       >
         <iframe
-          src="https://docs.google.com/document/d/e/2PACX-1vTuWokH7Wlj5zIUhk8WRmzf9Hc4_HyBK3TvJW9tRHhTzpFD27uESgjDusk9-Imj28Fq6r5fqtFbTni6/pub?embedded=true"
+          src="https://docs.google.com/document/d/1eQbyH1iGP2TRXzZaTrRaPpTZJP2ZEBwF/pub?embedded=true"
           style={{
             width: "100vw",
             height: "100vh",
