@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/assets/logo-BmCfJB6d.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="AoaeHK9zvWlwoVddrUwAZTdUnhvLSaVI-noEC53DjQY" />
+    <title>Portfolio Website</title>
+    <script type="module" crossorigin src="/assets/index-CAvUuE4K.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C7pMvDVk.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
